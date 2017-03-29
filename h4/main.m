@@ -84,4 +84,3 @@ h = ifft(fft(z).*fft(y));
 for i = 1:10
     disp(['h(n) at n=' num2str(i) ':' num2str(h(i))]);
 end
-
